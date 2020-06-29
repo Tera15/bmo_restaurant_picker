@@ -1,0 +1,16 @@
+.custom-button{
+min-width: 7rem;
+min-height: 1rem;
+background: rgb(0, 0, 0);
+color: rgb(210,210,210);
+padding: 0.5rem;
+margin-top: 0.5rem;
+font-weight: 700;
+letter-spacing: 3px;
+text-transform: uppercase;
+border: none;
+cursor: pointer;
+&:hover{
+   background:rgb(30,30,30)
+}
+}

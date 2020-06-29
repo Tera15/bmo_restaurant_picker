@@ -1,0 +1,17 @@
+.scroll-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 35vw;
+    height: 60vh;
+    background: transparent;
+    overflow-y: scroll;
+}
+
+
+@media (max-width: 768px){
+    .scroll-container{
+        width: 65vw;
+    }
+}

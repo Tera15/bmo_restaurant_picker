@@ -1,0 +1,35 @@
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    .input-label{
+        margin: 5px;
+        height: 1rem;
+    }       
+    .input-field{
+       border: none;
+       width:65%;
+       &:focus{
+           height: 2rem;
+       }
+    }
+   
+}
+
+// @media (max-width: 768){
+//     .input-group{
+//         height:100%;
+//         .input-label{
+//             visibility: none;
+//             font-size: small;
+//             height: 0.5rem;
+//         }       
+//         .input-field{
+//            border: none;
+//            &:focus{
+//                height: 1rem;
+//            }
+//         }
+       
+//     }
+// }
