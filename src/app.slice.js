@@ -3,7 +3,7 @@ import axios from 'axios';
 export const fetchRestaurants = createAsyncThunk(
   'startGetRestaurants',
     async (city, thunkAPI) => {
-      const response = await axios.get(`http://opentable.herokuapp.com/api/restaurants`, {
+      const response = await axios.get(`https://opentable.herokuapp.com/api/restaurants`, {
         params: {
           city: city,
           per_page: 100
